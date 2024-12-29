@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Nextcloud Verbindung">
+        <EditTextPreference
+            android:key="nextcloud_url"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nextcloud URL"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="nextcloud_user"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nextcloud Benutzer"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="nextcloud_password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nextcloud App-Passwort"
+            android:inputType="textPassword" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="nextcloud_folder"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nextcloud Ordner"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
